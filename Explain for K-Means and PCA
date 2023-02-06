@@ -1,1 +1,6 @@
 In the next code is show a way of compress a image with high density of pixels into N clusters, then using PCA for getting evena more efficiency product.
+
+For only K-Means, a function was created using the library cv2 for the parameters and model, for the fitting, the image was turn into a 2 dimensional array, after applying the K clusters, 
+the final image is return. The image display is with cv2.imshow().
+
+The same function is added the PCA (Principal Component Analysis), it was applied the PCA from sklearn.decomposition to the pixels of the image, then the clusters.
